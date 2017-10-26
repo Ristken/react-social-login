@@ -175,7 +175,7 @@ const SocialLogin = (WrappedComponent) => class SocialLogin extends Component {
       if (typeof onLoginSuccess === 'function') {
         onLoginSuccess(user)
       }
-    });
+    })
   }
 
   /**
@@ -193,7 +193,7 @@ const SocialLogin = (WrappedComponent) => class SocialLogin extends Component {
       if (typeof onLoginFailure === 'function') {
         onLoginFailure(err)
       }
-    });
+    })
   }
 
   /**
